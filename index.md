@@ -1,6 +1,6 @@
 # Kissa
 
-moi
+**moi**
 
 Tässä on hieno kuva:
 
