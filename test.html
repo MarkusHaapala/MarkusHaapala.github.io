@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #333;
+      }
+      .shape {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        animation: moveShape 10s infinite linear;
+      }
+      @keyframes moveShape {
+        0% {
+          transform: translate(-100%, -100%);
+        }
+        100% {
+          transform: translate(100%, 100%);
+        }
+      }
+      .shape1 {
+        background-color: #ddd;
+        animation-delay: 2s;
+      }
+      .shape2 {
+        background-color: #ccc;
+        animation-delay: 4s;
+      }
+      .shape3 {
+        background-color: #bbb;
+        animation-delay: 6s;
+      }
+      .shape4 {
+        background-color: #aaa;
+        animation-delay: 8s;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .btn {
+        padding: 10px 20px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+    <div class="shape shape3"></div>
+    <div class="shape shape4"></div>
+    <div class="container">
+      <a href="https://docs.google.com" class="btn">Google Docs</a>
+      <a href="https://www.instagram.com/markys_art00/" class="btn">Instagram</a>
+    </div>
+  </body>
+</html>
